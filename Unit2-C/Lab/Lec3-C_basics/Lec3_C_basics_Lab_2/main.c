@@ -17,21 +17,21 @@ int main()
 	fflush(stdin);
 	fflush(stdout);
 	scanf("%d %d %d",&number1,&number2,&number3);
-	if ((number1 > number2) && (number1 > number3))
+	if ((number1 >= number2) && (number1 >= number3))
 	{
 		printf("\n\nLargest value = %d\n",number1);
 	}
-	else if ((number2 > number1) && (number2 > number3))
+	else if ((number2 >= number1) && (number2 >= number3))
 	{
 		printf("\n\nLargest value = %d\n",number2);
 	}
-	else if ((number3 > number1) && (number3 > number2))
+	else if ((number3 >= number1) && (number3 >= number2))
 	{
 		printf("\n\nLargest value = %d\n",number3);
 	}
 	else
 	{
-		printf("\n\nAll values are the same of value = %d\n",number1);
+		printf("\n\nError\n");
 	}
 	return 0;
 }
