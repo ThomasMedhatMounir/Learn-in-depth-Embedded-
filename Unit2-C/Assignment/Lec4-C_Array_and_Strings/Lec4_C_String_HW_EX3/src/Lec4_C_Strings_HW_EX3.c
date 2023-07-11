@@ -12,7 +12,9 @@
 
 int main(void)
 {
-	char st[100],revST[100],len = 0,i = 0;
+	char st[100];
+	char revST[100];
+	short int len = 0,i = 0;
 	printf("Enter a string : ");
 	fflush(stdin);
 	fflush(stdout);

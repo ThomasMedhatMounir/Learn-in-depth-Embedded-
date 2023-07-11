@@ -12,7 +12,8 @@
 
 int main(void)
 {
-	char st[100],i = 0;
+	char st[100];
+	short int i = 0;
 	printf("Enter a string : ");
 	fflush(stdin);
 	fflush(stdout);
