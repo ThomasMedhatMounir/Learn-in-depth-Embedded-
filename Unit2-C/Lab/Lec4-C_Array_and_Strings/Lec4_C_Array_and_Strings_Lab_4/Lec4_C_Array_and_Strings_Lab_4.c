@@ -12,9 +12,13 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+
 
 int main(void)
 {
+	/*Seed the random number generator with the current time*/
+	srand(time(NULL));
 	int x[1000],i,count = 0;
 	for (i = 0 ; i < 1000 ; i++)
 	{
